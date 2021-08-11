@@ -41,14 +41,66 @@
     background-clip: text;
 }
 
-
 /* end navigation */ 
+
 
 /* Banner Area */ 
 /* 
 .site-main .site-banner {
     background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
 } */
+
+.site-main .site-banner button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: 20%;
+}
+
+.site-main .site-banner button {
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  width: auto;
+
+  border: #58C9B9;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 4px;
+
+  background-color: #ffffff;
+
+  margin-top: 2%;
+  margin-left: 23%;
+}
+
+.site-main .site-banner button {
+  /* 생략 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.site-main .site-banner button:active,
+.site-main .site-banner button:hover,
+.site-main .site-banner button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+  background-color: #58C9B9;
+
+}
+.site-main .site-banner button:disabled {
+  opacity: 0.5;
+}
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -62,19 +114,21 @@
     width: 15vw;
     background: black;
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 20%;
     transform: translateY(-10px);
 }
 
 .site-main .site-banner .site-title h1{
     font-size: 3.5rem;
     margin-left: 20%;
+    margin-top: 2%;
 }
 
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 5%;
+    font-weight: bold;
 }
 
 .site-main .site-banner .banner-image > img{
@@ -86,6 +140,58 @@
 /* End Banner Area */ 
 
 /* Start About Area */ 
+
+.site-main .about-area button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: 20%;
+}
+
+.site-main .about-area button {
+  margin: 0;
+  padding: 0.5rem 1rem;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+
+  display: inline-block;
+  width: auto;
+
+  border: #58C9B9;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 4px;
+
+  background-color: #ffffff;
+
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+.site-main .about-area button {
+  /* 생략 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.site-main .about-area button:active,
+.site-main .about-area button:hover,
+.site-main .about-area button:focus {
+  background: var(--button-hover-bg-color);
+  outline: 0;
+  background-color: #58C9B9;
+
+}
+.site-main .about-area button:disabled {
+  opacity: 0.5;
+}
 
 .site-main .about-area{
     padding: 8rem 5rem;
@@ -121,14 +227,14 @@
 }
 
 .site-main .brand-area h5{
-    margin-top: 0.2%;
+    margin-top: 0.1%;
     margin-left: 1%;
     font-size: 3rem;
     float: left;
 }
 
 .site-main .brand-area h2{
-    margin-top: 0.7%;
+    margin-top: 0.4%;
     margin-left: 1%;
     font-size: 2.3rem;
     float: left;
