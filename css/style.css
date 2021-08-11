@@ -28,14 +28,14 @@
 }
 
 .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
+    background: #58C9B9;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
+    background: #58C9B9;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
