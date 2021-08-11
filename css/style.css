@@ -45,10 +45,10 @@
 
 
 /* Banner Area */ 
-/* 
+
 .site-main .site-banner {
-    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
-} */
+    background: url(../main3.png) no-repeat 0% 50%;
+}
 
 .site-main .site-banner button {
   -webkit-appearance: none;
@@ -201,11 +201,12 @@
 .site-main .about-area .about-title h2 > span{
     display: block;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 21px;
+    letter-spacing: 10px;
 }
 
 .site-main .about-area .about-title .paragraph > p{
     padding: .4rem 0;
+    font-size: 1.3rem;
 }
 
 /* End About Area */ 
