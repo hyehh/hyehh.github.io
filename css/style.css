@@ -78,7 +78,7 @@
   background-color: #ffffff;
 
   margin-top: 2%;
-  margin-left: 21%;
+  margin-left: 23%;
 }
 
 .site-main .site-banner button {
@@ -104,14 +104,14 @@
 
 .site-main .site-banner .site-title h4{
     font-size: 1.5rem;
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 3%;
     font-weight: bold;
 }
 
 .site-main .site-banner .banner-image > img{
     padding: 15rem 0;
-    width: 40rem;
+    width: 50rem;
 }
 
 
