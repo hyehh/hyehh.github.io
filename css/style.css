@@ -111,7 +111,7 @@
 
 .site-main .site-banner .banner-image > img{
     padding: 15rem 0;
-    width: 50rem;
+    width: 40rem;
 }
 
 
@@ -181,10 +181,6 @@
     letter-spacing: 10px;
 }
 
-.site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
-    font-size: 1.3rem;
-}
 
 /* End About Area */ 
 
