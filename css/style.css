@@ -47,7 +47,7 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../main3.png) no-repeat 0% 50%;
+    background: url(../main2.png) no-repeat 0% 50%;
 }
 
 .site-main .site-banner button {
@@ -107,22 +107,6 @@
     font-weight: 500;
     margin-left: 20%;
     margin-bottom: 30px;
-}
-
-.site-main .site-banner .site-title h3::after{
-    content: " ";
-    height: 2px;
-    width: 15vw;
-    background: black;
-    display: inline-block;
-    margin-left: 21%;
-    transform: translateY(-10px);
-}
-
-.site-main .site-banner .site-title h1{
-    font-size: 3.5rem;
-    margin-left: 20%;
-    margin-top: 2%;
 }
 
 .site-main .site-banner .site-title h4{
@@ -228,7 +212,7 @@
     float: left;
 }
 
-.site-main .brand-area h5{
+/* .site-main .brand-area h5{
     margin-top: 5px;
     margin-left: 1%;
     font-size: 3rem;
@@ -240,7 +224,7 @@
     margin-left: 1%;
     font-size: 2.3rem;
     float: left;
-}
+} */
 
 /* End Skills Area */ 
 
