@@ -146,7 +146,7 @@
 
   background-color: #ffffff;
 
-  margin-top: 5%;
+  margin-top: 3%;
   margin-left: 25%;
 }
 
@@ -178,7 +178,7 @@
 .site-main .about-area .about-title h2 > span{
     display: block;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
 }
 
 
@@ -361,7 +361,6 @@
             font-size: 14px;
             font-weight: 400;
             line-height: 1;
-            text-transform: uppercase;
             color: #555555;
             transition: all 0.3s ease-in-out;
             margin: 0 4px 10px 4px;
@@ -452,7 +451,6 @@
           .portfolio .portfolio-wrap .portfolio-info p {
             color: #ffffff;
             font-size: 20px;
-            text-transform: uppercase;
             padding: 0;
             margin: 0;
           }
