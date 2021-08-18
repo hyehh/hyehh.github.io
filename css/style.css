@@ -250,8 +250,8 @@
             border: 1px solid white;
         }
         .portfolio .portfolio-wrap .portfolio-links .overlay-img {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             margin-top: 50px;
             border: 1px solid #fff;
             padding: 5px;
@@ -443,14 +443,14 @@
           }
           
           .portfolio .portfolio-wrap .portfolio-info h4 {
-            font-size: 30px;
+            font-size: 20px;
             color: #fff;
             font-weight: 600;
           }
           
           .portfolio .portfolio-wrap .portfolio-info p {
             color: #ffffff;
-            font-size: 20px;
+            font-size: 18px;
             padding: 0;
             margin: 0;
           }
